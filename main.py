@@ -9,7 +9,7 @@ rttimes = 0
 
 #  STEP 1
 i = 56
-s = ["Uno", "Dos", "Tres", "Quatro", "Cinco", "Seis"]
+s = ["This", "That", "When", "There", "Who", "Where"]
 
 for file in os.listdir("oldfiles"):
     #  vvv MODE 0 | Integer  vvv
@@ -25,7 +25,7 @@ for file in os.listdir("oldfiles"):
     if mode == 1:
         if rttimes != len(s):
             # STEP 2
-            newname = "OPTIONAL_" + s[rttimes] + "_OPTIONAL.txt"
+            newname = "OPTIONAL_" + s[rttimes] + "_OPTIONAL.FILETYPE"
         else:
             rttimes = 0
             # STEP 2
